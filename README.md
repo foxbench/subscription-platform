@@ -17,10 +17,11 @@ This is a simple subscription platform implemented in Laravel, allowing users to
     composer install
     ```
 
-3. Copy the `.env.example` file to create your own `.env` file:
+3. Copy the `.env.example` file to create your own `.env` file and generate app key:
 
     ```bash
     cp .env.example .env
+    php artisan key:generate
     ```
 
 4. Configure the database settings in the `.env` file:
